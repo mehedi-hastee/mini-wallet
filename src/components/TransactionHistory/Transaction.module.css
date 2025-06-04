@@ -1,0 +1,71 @@
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+
+.paginationButton{
+    background-color: transparent;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 2px;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    color: #666666;
+    font-size: 2em;
+    padding: 0;
+    margin: 0 0.5em;
+
+    &:hover{
+        color: #333333;
+        background-color: transparent;
+    }
+
+    &:first-child{
+        margin-left: 0;
+    }
+
+    &:last-child{
+        margin-right: 0;
+    }
+
+    &[disabled]{
+        color: #cccccc;
+        cursor: not-allowed;
+    }
+}
+
+.sortSelector{
+    margin: 0 0.5em;
+    padding: 0.25em;
+    font-size: 1em;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #333333;
+
+    &:focus{
+        outline: none;
+        border-color: #666666;
+    }
+}
+
+.transactionList{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    .transactionItem {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.25em 0;
+        gap: 1em;
+        border-bottom: 1px solid #eeeeee;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.link{
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 500;
+    color: #646cff;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+    gap: 1em;
+}
